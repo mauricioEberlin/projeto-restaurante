@@ -1,0 +1,68 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: #f15931;
+    padding: 10px 20px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.imagem-principal{
+    position: relative;
+    text-align: center;
+}
+
+.imagem-principal img{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.img-centro{
+    font-family: Georgia;
+    font-size: 60px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pedidos{
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-pedido{
+    width: 250px;
+    padding: 0px 10px;
+    border: 2px solid #f15931;
+    white-space: nowrap;
+    overflow-x: auto;
+    flex: 0 1 28%;
+    margin: 5px 10px;
+}
+
+.card-pedido input{
+    width: 14px;
+}
+
+.confirmacao{
+    border-top: 2px dotted #f15931;
+    margin-top: 100px;
+    text-align: center;
+}
