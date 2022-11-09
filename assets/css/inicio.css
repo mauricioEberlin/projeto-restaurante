@@ -25,10 +25,11 @@ body {
     height: 50px;
     margin-top: 5px;
     border: 2px solid white;
+    transition: background-color 200ms;
 }
 
 .selecao-botoes button:hover{
     background-color: white;
     color: #101010;
-    transition: 0.2s;
+    transition-timing-function: linear;
 }

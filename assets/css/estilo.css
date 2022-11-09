@@ -33,6 +33,9 @@ h1, h2{
     font-family: Georgia;
     font-size: 60px;
     color: white;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    padding: 10px;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     position: absolute;
     top: 50%;
@@ -65,4 +68,29 @@ h1, h2{
     border-top: 2px dotted #f15931;
     margin-top: 100px;
     text-align: center;
+}
+
+.formas-pagamento{
+    margin: 0px 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 2px dotted #f15931;
+}
+
+.card-pagamento{
+    width: 200px;
+    background-color: white;
+    padding: 0px 10px;
+    border: 2px solid #101010;
+    margin: 5px 10px;
+    flex-grow: 0;
+    transition: background-color 200ms;
+    
+}
+
+.card-pagamento:hover{
+    background-color: #f15931;
+    transition-timing-function: linear;
 }
