@@ -1,5 +1,10 @@
 *{
     font-family: sans-serif;
+    text-decoration: none;
+}
+
+a{
+    color: inherit;
 }
 
 body{
@@ -12,6 +17,11 @@ header{
     font-size: 20px;
     background-color: #f15931;
     padding: 10px 20px;
+}
+
+header.cozinha{
+    background-color: #202020;
+    border-top: 1px solid #f15931;
 }
 
 h1, h2{
@@ -92,5 +102,46 @@ h1, h2{
 
 .card-pagamento:hover{
     background-color: #f15931;
-    transition-timing-function: linear;
+}
+
+table.cozinha{
+    border: 2px solid #101010;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+}
+
+table.cozinha th{
+    width: 25%;
+    height: 75px;
+}
+
+table.cozinha td{
+   height: 50px;
+}
+
+table.cozinha .detalhes{
+    text-align: center;
+    font-weight: bolder;
+}
+
+table.cozinha .detalhes a{
+    border: 1px solid #101010;
+    padding: 10px 25px;
+}
+
+table.cozinha .alterar-status{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 50px;
+}
+
+.cozinha-voltar{
+    margin-top: 50px;
+}
+
+.cozinha-voltar a{
+    border: 2px solid #101010;
+    padding: 20px;
 }
