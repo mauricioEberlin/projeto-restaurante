@@ -70,7 +70,7 @@
 
     <div class="confirmacao">
         <h2>Valor total: R$ 0,00</h2>
-        <a href="pagamento-cliente.html">Prosseguir para o pagamento</a>
+        <a href="cliente-pagamento.html">Prosseguir para o pagamento</a>
     </div>
 
 </main>

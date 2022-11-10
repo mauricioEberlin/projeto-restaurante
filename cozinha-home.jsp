@@ -37,7 +37,7 @@
             <td>01</td>
             <td>R$ 50,00</td>
             <td>PIX</td>
-            <td class="detalhes"><a href="detalhes-cozinha.html">VER</a></td>
+            <td class="detalhes"><a href="cozinha-detalhes.html">VER</a></td>
         </tr>
 
     </table>

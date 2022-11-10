@@ -58,7 +58,7 @@
     </table>
 
     <div class="cozinha-voltar">
-        <h1><a href="home-cozinha.html">Voltar</a></h1>
+        <h1><a href="cozinha-home.html">Voltar</a></h1>
     </div>
 
 </main>
