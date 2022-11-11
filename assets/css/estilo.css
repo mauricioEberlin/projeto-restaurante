@@ -1,10 +1,10 @@
 *{
     font-family: sans-serif;
-    text-decoration: none;
 }
 
 a{
     color: inherit;
+    text-decoration: none;
 }
 
 body{
@@ -57,27 +57,48 @@ h1, h2{
     margin: 0px 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .card-pedido{
-    width: 250px;
+    width: 200px;
     padding: 0px 10px;
     border: 2px solid #f15931;
     white-space: nowrap;
     overflow-x: auto;
-    flex: 0 1 28%;
+    flex-grow: 0;
     margin: 5px 10px;
 }
 
-.card-pedido input{
-    width: 14px;
+.card-pedido input, #valorTotal{
+    width: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #101010;
+    background-color: white;
+    border: none;
+}
+
+#valorTotal{
+    font-size: 24px;
+    font-weight: inherit;
+    margin-left: -6px;
+    width: 200px;
+}
+
+.card-pedido button{
+    width: 35px;
+    height: 30px;
 }
 
 .confirmacao{
     border-top: 2px dotted #f15931;
     margin-top: 100px;
     text-align: center;
+}
+
+.confirmacao h2{
+    margin-left: 150px;
 }
 
 .formas-pagamento{

@@ -16,9 +16,8 @@
 <div class="selecao">
     <h1>Selecione o sistema que vai ser operado:</h1>
     <div class="selecao-botoes">
-        <button>Visão cliente</button>
-        <button>Visão cozinha</button>
-        <button>Visão caixa</button>
+        <a href="cliente-home.html">Visão cliente</a>
+        <a href="cozinha-home.html">Visão cozinha</a>
     </div>
 </div>  
 

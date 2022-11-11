@@ -18,17 +18,18 @@ body {
     margin-right: auto; 
 }
 
-.selecao-botoes button{
+.selecao-botoes a{
+    display: block;
+    text-decoration: none;
     background-color: #101010;
     font-weight: bold;
-    width: 200px;
-    height: 50px;
+    padding: 10px;
     margin-top: 5px;
     border: 2px solid white;
     transition: background-color 200ms;
 }
 
-.selecao-botoes button:hover{
+.selecao-botoes a:hover{
     background-color: white;
     color: #101010;
     transition-timing-function: linear;
