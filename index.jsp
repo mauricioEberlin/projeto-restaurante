@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@include file="utils/utilidade.jsp"%>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -16,8 +17,8 @@
 <div class="selecao">
     <h1>Selecione o sistema que vai ser operado:</h1>
     <div class="selecao-botoes">
-        <a href="cliente-home.html">Visão cliente</a>
-        <a href="cozinha-home.html">Visão cozinha</a>
+        <a href="cliente-home.jsp">Visão cliente</a>
+        <a href="cozinha-home.jsp">Visão cozinha</a>
     </div>
 </div>  
 
